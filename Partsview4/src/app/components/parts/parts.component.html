@@ -1,0 +1,34 @@
+<p>Active part {{part.numBobst}}</p>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <caption>Parts list</caption>
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Repere Column -->
+    <ng-container matColumnDef="repere">
+        <th mat-header-cell *matHeaderCellDef id="repere"> Repere </th>
+        <td mat-cell *matCellDef="let element"> {{element.repere}} </td>
+    </ng-container>
+
+    <!-- N° Bobst Column -->
+    <ng-container matColumnDef="numBobst">
+        <th mat-header-cell *matHeaderCellDef id="numBobst"> N° Bobst </th>
+        <td mat-cell *matCellDef="let element"> {{element.numBobst}} </td>
+    </ng-container>
+
+    <!-- Description Column -->
+    <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef id="description"> Description </th>
+        <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+    </ng-container>
+
+    <!-- Note Column -->
+    <ng-container matColumnDef="note">
+        <th mat-header-cell *matHeaderCellDef id="note"> Note </th>
+        <td mat-cell *matCellDef="let element"> {{element.note}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

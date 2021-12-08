@@ -1,0 +1,37 @@
+<div>
+    <header>
+        <h2>PartsView 4.0</h2>
+    </header>
+
+    <div>
+
+        <as-split direction="horizontal">
+            <as-split-area [size]="20">
+
+                <as-split direction="vertical">
+                    <as-split-area [size]="50">
+                        <app-navigation></app-navigation>
+                    </as-split-area>
+                    <as-split-area [size]="50">
+
+                        <app-parts></app-parts>
+
+                    </as-split-area>
+                </as-split>
+
+            </as-split-area>
+            <as-split-area [size]="80">
+
+
+                <app-drawing></app-drawing>
+
+
+            </as-split-area>
+        </as-split>
+
+    </div>
+
+    <footer>
+        <p>Bobst SA</p>
+    </footer>
+</div>
