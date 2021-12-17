@@ -1,5 +1,6 @@
 package bobst.catalog.compoCat4.models;
 
+
 public class Part {
 	
 	private String repere;

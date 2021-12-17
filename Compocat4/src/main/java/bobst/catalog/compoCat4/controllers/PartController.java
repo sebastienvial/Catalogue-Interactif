@@ -1,13 +1,19 @@
 package bobst.catalog.compoCat4.controllers;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import org.w3c.dom.Node;
+import org.springframework.http.HttpStatus;
 
+import bobst.catalog.compoCat4.models.CatPageContent;
 import bobst.catalog.compoCat4.models.NodeBom;
 import bobst.catalog.compoCat4.models.Part;
+import bobst.catalog.compoCat4.repositories.CatPageContentRepository;
 
 @RestController
 public class PartController {
@@ -21,6 +27,12 @@ public class PartController {
 	 * note: 'B'}, {repere: 6, numBobst: 'Carbon', description: 'Vis sans fin',
 	 * note: 'C'}
 	 */
+	
+	private final CatPageContentRepository catPageContentRepository;
+	
+	public PartController(CatPageContentRepository catPageContentRepository) {
+		this.catPageContentRepository = catPageContentRepository;
+	}
 	
 	@GetMapping("/parts")
 	public ArrayList<Part> getPart() {
@@ -42,6 +54,18 @@ public class PartController {
 		bom.add(new NodeBom("GENERAL + PLAQUETTES", "PCR0380S0001", "PCR0380E00", "ZSP_postMessage001.svg"));
 		
 		return bom;
+	}
+	
+	@PostMapping("/catPageContent")
+    @ResponseStatus(HttpStatus.CREATED)
+    public CatPageContent createCPC(@RequestBody CatPageContent catPageContent) {
+        return catPageContentRepository.save(catPageContent);
+    }
+	
+	
+	@GetMapping ("/catPageContent")
+	public Iterable<CatPageContent> getCatPageContent() {
+		return catPageContentRepository.findAll();
 	}
 
 }
