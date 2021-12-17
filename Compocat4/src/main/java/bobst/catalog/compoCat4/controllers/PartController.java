@@ -2,6 +2,7 @@ package bobst.catalog.compoCat4.controllers;
 
 import java.util.ArrayList;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.w3c.dom.Node;
@@ -21,7 +22,7 @@ public class PartController {
 	 * note: 'B'}, {repere: 6, numBobst: 'Carbon', description: 'Vis sans fin',
 	 * note: 'C'}
 	 */
-	
+	@CrossOrigin(origins = "http://localhost:4200")
 	@GetMapping("/parts")
 	public ArrayList<Part> getPart() {
 		

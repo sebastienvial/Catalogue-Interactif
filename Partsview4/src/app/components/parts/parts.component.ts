@@ -14,6 +14,7 @@ export class PartsComponent {
   part!: Parts;
 
   constructor(private partsviewService: PartsviewService) {
+    
     // Injection partsviewService
     //this.dataSource = partsviewService.PARTS_DATA;
     this.partsviewService.activeListParts.subscribe( value => {

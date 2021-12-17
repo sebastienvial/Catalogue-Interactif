@@ -1,3 +1,4 @@
+
 import { BehaviorSubject } from "rxjs";
 
 /**
@@ -33,8 +34,10 @@ export interface Parts {
     note: string;
   }
 
- 
+
 export class PartsviewService {
+
+   // constructor(private partsService: PartsService) {}
 
     treeData: EquipmentNode[] = [
 
