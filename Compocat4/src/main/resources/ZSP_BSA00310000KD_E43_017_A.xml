@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Part list from C:\BPA\3DSmartDocCreatorServer\files\BSA00310000KD_E43.smgProj-->
+<root>
+  <items PageNumber="P01" Page="1/1" LocalDescription="ME00 GI POUR SUIVI QUALITE" EnglishDescription="ME00 GI FOR QUALITY INTERFACE" Reference="BSA00310000KD_E43" Revision="A">
+    <item>
+      <BomId>1</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115162500</ItemNumber>
+      <ItemRevision>C</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>HALTER_</ShortDescriptionDe>
+      <ShortDescriptionEn>PULLEY SUPPORT</ShortDescriptionEn>
+      <ShortDescriptionEs>SOPORTE</ShortDescriptionEs>
+      <ShortDescriptionFr>SUPPORT</ShortDescriptionFr>
+      <ShortDescriptionIt>SUPPORTO_</ShortDescriptionIt>
+      <ShortDescriptionPt>SUPORTE_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>2</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115162600</ItemNumber>
+      <ItemRevision>B</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>ACHSE</ShortDescriptionDe>
+      <ShortDescriptionEn>AXLE ENCODER</ShortDescriptionEn>
+      <ShortDescriptionEs>EJE</ShortDescriptionEs>
+      <ShortDescriptionFr>AXE CODEUR</ShortDescriptionFr>
+      <ShortDescriptionIt>ASSE</ShortDescriptionIt>
+      <ShortDescriptionPt>EIXO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>3</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115174200</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>KLOTZ</ShortDescriptionDe>
+      <ShortDescriptionEn>SUPPORT STUD</ShortDescriptionEn>
+      <ShortDescriptionEs>BLOQUE_</ShortDescriptionEs>
+      <ShortDescriptionFr>PLOT</ShortDescriptionFr>
+      <ShortDescriptionIt>MORSETTO</ShortDescriptionIt>
+      <ShortDescriptionPt>PINO</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>4</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0322174800</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Multi-materials</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>RIEMENSCHEIBE</ShortDescriptionDe>
+      <ShortDescriptionEn>PULLEY</ShortDescriptionEn>
+      <ShortDescriptionEs>POLEA</ShortDescriptionEs>
+      <ShortDescriptionFr>POULIE CODEUR</ShortDescriptionFr>
+      <ShortDescriptionIt>PULEGGIA</ShortDescriptionIt>
+      <ShortDescriptionPt>POLIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>5</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1116513300</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>RILLENKUGELLAGER 10X26X8</ShortDescriptionDe>
+      <ShortDescriptionEn>BRG BALL BEARING 10X26X8</ShortDescriptionEn>
+      <ShortDescriptionEs>RODAMIENTO DE BOLAS 10X26X8</ShortDescriptionEs>
+      <ShortDescriptionFr>RLT RIGIDE A BILLES 10X26X8</ShortDescriptionFr>
+      <ShortDescriptionIt>CUSCINETTO A SFERE 10X26X8</ShortDescriptionIt>
+      <ShortDescriptionPt>ROLAMENTO DE ESFERAS 10X26X8</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>6</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA2371504404</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>IMPULSGENERATOR</ShortDescriptionDe>
+      <ShortDescriptionEn>PULSE GENERATOR</ShortDescriptionEn>
+      <ShortDescriptionEs>GENERADOR DE IMPULSIONES</ShortDescriptionEs>
+      <ShortDescriptionFr>GI ROT   512IMPULS/TOUR  24VDC</ShortDescriptionFr>
+      <ShortDescriptionIt>PULSE GENERATOR</ShortDescriptionIt>
+      <ShortDescriptionPt>GENERADOR DE IMPULSIONS</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>7</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA871100010</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>AEUSSERER SPANNRING</ShortDescriptionDe>
+      <ShortDescriptionEn>OUTER SNAP RING</ShortDescriptionEn>
+      <ShortDescriptionEs>ANILLO DE RETENCION EXTERIOR</ShortDescriptionEs>
+      <ShortDescriptionFr>CIRCLIP E DIN 471 D.10</ShortDescriptionFr>
+      <ShortDescriptionIt>OUTER SNAP RING</ShortDescriptionIt>
+      <ShortDescriptionPt>ANEL DE RETENCAO EXTERIOR</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+  </items>
+</root>

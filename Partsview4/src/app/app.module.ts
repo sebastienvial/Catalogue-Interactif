@@ -13,18 +13,21 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatTableModule } from '@angular/material/table';
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 import { AngularSplitModule } from 'angular-split';
 import { PartsviewService } from './services/partsview.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NavigationDynamicComponent } from './components/navigation-dynamic/navigation-dynamic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     DrawingComponent,
-    PartsComponent
+    PartsComponent,
+    NavigationDynamicComponent
   ],
   imports: [
     MatDialogModule,
@@ -32,6 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatTableModule,
     MatIconModule,
     MatTreeModule,
+    MatProgressBarModule,
     MatButtonModule,
     MatButtonToggleModule,
     BrowserModule,

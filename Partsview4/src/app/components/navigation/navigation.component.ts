@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { PartsviewService, EquipmentNode, EquipmentFlatNode } from 'src/app/services/partsview.service';
+import { BomService } from 'src/app/services/bom.service';
 
  @Component({
   selector: 'app-navigation',
@@ -11,8 +12,9 @@ import { PartsviewService, EquipmentNode, EquipmentFlatNode } from 'src/app/serv
 
  export class NavigationComponent implements OnInit {
     
-    constructor(private partsviewService: PartsviewService) {
+    constructor(private partsviewService: PartsviewService, private bomService: BomService) {
       //injection of PartsviewService
+      
 
     }
     
@@ -21,7 +23,7 @@ import { PartsviewService, EquipmentNode, EquipmentFlatNode } from 'src/app/serv
           expandable: !!node.children && node.children.length > 0,
           name: node.name,
           parentId: node.parentId,
-          Id: node.Id,
+          id: node.id,
           drawing: !!node.drawing ? node.drawing : 'no drawing',
           level: level,
           };
@@ -46,7 +48,16 @@ import { PartsviewService, EquipmentNode, EquipmentFlatNode } from 'src/app/serv
 
     ngOnInit() {
       
-      this.dataSource.data =this.treeConstruct(this.partsviewService.treeData);
+      //this.dataSource.data =this.treeConstruct(this.partsviewService.treeData);
+
+      //this.dataSource.data =this.treeConstruct(this.bomService.getBom());
+
+      this.bomService.getBom().subscribe( (response) => {
+        response = response.slice(0,4000);
+        console.log ('Retour http: ',response);
+        this.dataSource.data = this.treeConstruct(response);
+     })
+
     }
 
   //constructTree recursively iterates through the tree to create nested tree structure.
@@ -67,7 +78,7 @@ import { PartsviewService, EquipmentNode, EquipmentFlatNode } from 'src/app/serv
           treeObj.children = [];
           constructedTree.push(treeObj);
           return true;
-        } else if (treeObj.parentId == constructedTree.Id) {
+        } else if (treeObj.parentId == constructedTree.id) {
           treeObj.children = [];
           constructedTree.children.push(treeObj);
           return true;

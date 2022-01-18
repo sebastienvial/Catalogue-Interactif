@@ -7,6 +7,9 @@ public class Part {
 	private String description;
 	private String note;
 	
+	public Part() {
+	}
+	
 	public Part(String repere, String numBobst, String description, String note) {
 		super();
 		this.repere = repere;
