@@ -41,26 +41,26 @@ public class CaptureController {
         return true;        
     }
 
-    @GetMapping("/capture")
+    @GetMapping("/capturer")
     public String uploadFile(Model model) {
         return "uploadForm";
     }
 
     @PostMapping("/captureBom")
-    public String handleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) {
+    public String handleFileUpload(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes) throws IOException {
         catBomService.uploadBom(file);
         return "redirect:/capture";
     }
     
 
     @PostMapping("/captureZip")
-    public String processZip(@RequestParam("dir") MultipartFile file) {
+    public String processZip(@RequestParam("file") MultipartFile file) {
         catPageService.uploadZip(file);
         return "redirect:/capture";
     }
 
     @PostMapping("/captureXml")
-    public String processXml(@RequestParam("xml") MultipartFile file) throws ParserConfigurationException, SAXException, IllegalStateException, IOException {
+    public String processXml(@RequestParam("file") MultipartFile file) throws ParserConfigurationException, SAXException, IllegalStateException, IOException {
         catPageContentService.uploadXml(file);
         return "redirect:/capture";
     }

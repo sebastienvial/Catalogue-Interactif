@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Part list from C:\BPA\3DSmartDocCreatorServer\files\BSA00310000EB_E43.smgProj-->
+<root>
+  <items PageNumber="P01" Page="1/2" LocalDescription="ME10 L&amp;R LATERAL GUIDE BASE" EnglishDescription="ME10 L&amp;R LATERAL GUIDE BASE" Reference="BSA00310000EB_E43" Revision="A">
+    <item>
+      <BomId>1</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA0031181200</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SEITENTEIL</ShortDescriptionDe>
+      <ShortDescriptionEn>RIVET</ShortDescriptionEn>
+      <ShortDescriptionEs></ShortDescriptionEs>
+      <ShortDescriptionFr>LATERAL GUIDE EXTENDED</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA LATERALE</ShortDescriptionIt>
+      <ShortDescriptionPt></ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>2</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115110700</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X 5 Cr Ni  18 10 Laminé</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SEITENWANGE</ShortDescriptionDe>
+      <ShortDescriptionEn>LATERAL GUIDE</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA LATERAL</ShortDescriptionEs>
+      <ShortDescriptionFr>JOUE_ LATERALE</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA LATERALE</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA LATERAL</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>3</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115129500</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>C45E</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>GLEITSCHIENE</ShortDescriptionDe>
+      <ShortDescriptionEn>SLIDING RAIL SUSPENSION</ShortDescriptionEn>
+      <ShortDescriptionEs>PIEZA DE DESLIZAMIENTO | GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GLISSIERE DE SUSPENSION</ShortDescriptionFr>
+      <ShortDescriptionIt>SLITTA _</ShortDescriptionIt>
+      <ShortDescriptionPt>PECA DE DESLIZAMENTO</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>4</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115129700</ItemNumber>
+      <ItemRevision>B</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>HALTER_</ShortDescriptionDe>
+      <ShortDescriptionEn>SUPPORT SUSPENSION IN ROTATION</ShortDescriptionEn>
+      <ShortDescriptionEs>SOPORTE</ShortDescriptionEs>
+      <ShortDescriptionFr>SUPPORT</ShortDescriptionFr>
+      <ShortDescriptionIt>SUPPORTO_</ShortDescriptionIt>
+      <ShortDescriptionPt>SUPORTE_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>5</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115150600</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>ANSCHLAG</ShortDescriptionDe>
+      <ShortDescriptionEn>STOP</ShortDescriptionEn>
+      <ShortDescriptionEs>PARADA</ShortDescriptionEs>
+      <ShortDescriptionFr>BUTEE</ShortDescriptionFr>
+      <ShortDescriptionIt>FERMO</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAGEM</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>6</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153400</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>DISTANZSTUECK</ShortDescriptionDe>
+      <ShortDescriptionEn>SPACER SUSPENSION</ShortDescriptionEn>
+      <ShortDescriptionEs>DISTANCIADOR</ShortDescriptionEs>
+      <ShortDescriptionFr>ENTRETOISE DE SUSPENSION</ShortDescriptionFr>
+      <ShortDescriptionIt>DISTANZIALE</ShortDescriptionIt>
+      <ShortDescriptionPt>AFASTADOR</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>7</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153500</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Cu Zn 39 Pb 3</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>BLOCKIERKEIL</ShortDescriptionDe>
+      <ShortDescriptionEn>LOCKING VEE</ShortDescriptionEn>
+      <ShortDescriptionEs>V DE PARADA</ShortDescriptionEs>
+      <ShortDescriptionFr>V DE SERRAGE</ShortDescriptionFr>
+      <ShortDescriptionIt></ShortDescriptionIt>
+      <ShortDescriptionPt>V DE PARADA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>8</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153700</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Ac inoxydable</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>GUIDE  APRES JOUE SUP.C.C.</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE APRES JOUE SUP.C.C.</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>9</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153800</ItemNumber>
+      <ItemRevision>B</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>GUIDE AFTER LATERAL</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE APRES JOUE LATERAL</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>10</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115213100</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>VERSTEIFUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>STIFFENER</ShortDescriptionEn>
+      <ShortDescriptionEs>TENSOR_</ShortDescriptionEs>
+      <ShortDescriptionFr>RAIDISSEUR</ShortDescriptionFr>
+      <ShortDescriptionIt>TENDITORE_</ShortDescriptionIt>
+      <ShortDescriptionPt>REFORCADOR</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>11</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup></ItemMaterialGroup>
+      <ItemNumber>BSA03220000CU</ItemNumber>
+      <ItemRevision></ItemRevision>
+      <ItemState></ItemState>
+      <ItemUnitOfMeasure></ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe></ShortDescriptionDe>
+      <ShortDescriptionEn>PLEASE FILL THIS FIELD</ShortDescriptionEn>
+      <ShortDescriptionEs></ShortDescriptionEs>
+      <ShortDescriptionFr>ETRIER</ShortDescriptionFr>
+      <ShortDescriptionIt></ShortDescriptionIt>
+      <ShortDescriptionPt></ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>12</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0331718000</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>S 235 JR C</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>SIDE GUIDE SUPPORT</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>13</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0394712000</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Anodized aluminium - Aluminium Oxydé</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>WARNSCHILDER</ShortDescriptionDe>
+      <ShortDescriptionEn>WARNING PLATES</ShortDescriptionEn>
+      <ShortDescriptionEs>PLACA DE SEGURIDAD</ShortDescriptionEs>
+      <ShortDescriptionFr>PLAQUE SECURITE</ShortDescriptionFr>
+      <ShortDescriptionIt>PIASTRINA DI SICUREZZA</ShortDescriptionIt>
+      <ShortDescriptionPt>PLACA DE SEGURANCA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>14</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0633304100</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SPANNLEISTE</ShortDescriptionDe>
+      <ShortDescriptionEn>CLAMPING BAR</ShortDescriptionEn>
+      <ShortDescriptionEs>REGLETA</ShortDescriptionEs>
+      <ShortDescriptionFr>LARDON</ShortDescriptionFr>
+      <ShortDescriptionIt>LARDONE</ShortDescriptionIt>
+      <ShortDescriptionPt>BARRA DE FIXACAO</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>15</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1002108076</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X17CrNi16-2 (EN 10088-3)</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SCHRAUBE</ShortDescriptionDe>
+      <ShortDescriptionEn>SCREW KNURLED</ShortDescriptionEn>
+      <ShortDescriptionEs>TORNILLO</ShortDescriptionEs>
+      <ShortDescriptionFr>VIS MOLETEE M8 X 20</ShortDescriptionFr>
+      <ShortDescriptionIt>VITE</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAFUSO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>16</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1002108079</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X17CrNi16-2 (EN 10088-3)</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SCHRAUBE</ShortDescriptionDe>
+      <ShortDescriptionEn>SCREW KNURLED</ShortDescriptionEn>
+      <ShortDescriptionEs>TORNILLO</ShortDescriptionEs>
+      <ShortDescriptionFr>VIS MOLETEE M8 X 30</ShortDescriptionFr>
+      <ShortDescriptionIt>VITE</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAFUSO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>17</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1002208019</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X17CrNi16-2 (EN 10088-3)</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SCHRAUBE</ShortDescriptionDe>
+      <ShortDescriptionEn>SCREW KNURLED</ShortDescriptionEn>
+      <ShortDescriptionEs>TORNILLO</ShortDescriptionEs>
+      <ShortDescriptionFr>VIS MOLETEE M8 X 30</ShortDescriptionFr>
+      <ShortDescriptionIt>VITE</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAFUSO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>18</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1007066600</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>RUNDSCHEIBE</ShortDescriptionDe>
+      <ShortDescriptionEn>WASHER AC 6.4/17X3</ShortDescriptionEn>
+      <ShortDescriptionEs>ARANDELA</ShortDescriptionEs>
+      <ShortDescriptionFr>RONDELLE AC 6.4/17X3</ShortDescriptionFr>
+      <ShortDescriptionIt>RONDELLA</ShortDescriptionIt>
+      <ShortDescriptionPt>ARRUELA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>19</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCD</ItemMaterialGroup>
+      <ItemNumber>BSA1007088700</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>ZWISCHENSTUECK 10,5/15,85 X 5,9</ShortDescriptionDe>
+      <ShortDescriptionEn>SPACER 10,5/15,85 X 5,9</ShortDescriptionEn>
+      <ShortDescriptionEs>PIEZA DE CONEXION 10,5/15,85 X 5,9</ShortDescriptionEs>
+      <ShortDescriptionFr>ENTRETOISE  10,5/15,85 X 5,9</ShortDescriptionFr>
+      <ShortDescriptionIt></ShortDescriptionIt>
+      <ShortDescriptionPt>PECA DE CONEXAO 10,5/15,85 X 5,9</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+  </items>
+  <items PageNumber="P02" Page="2/2" LocalDescription="ME10 L&amp;R LATERAL GUIDE BASE" EnglishDescription="ME10 L&amp;R LATERAL GUIDE BASE" Reference="BSA00310000EB_E43" Revision="A">
+    <item>
+      <BomId>1</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA0031181200</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SEITENTEIL</ShortDescriptionDe>
+      <ShortDescriptionEn>RIVET</ShortDescriptionEn>
+      <ShortDescriptionEs></ShortDescriptionEs>
+      <ShortDescriptionFr>LATERAL GUIDE EXTENDED</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA LATERALE</ShortDescriptionIt>
+      <ShortDescriptionPt></ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>2</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115110700</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X 5 Cr Ni  18 10 Laminé</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SEITENWANGE</ShortDescriptionDe>
+      <ShortDescriptionEn>LATERAL GUIDE</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA LATERAL</ShortDescriptionEs>
+      <ShortDescriptionFr>JOUE_ LATERALE</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA LATERALE</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA LATERAL</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>3</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115129500</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>C45E</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>GLEITSCHIENE</ShortDescriptionDe>
+      <ShortDescriptionEn>SLIDING RAIL SUSPENSION</ShortDescriptionEn>
+      <ShortDescriptionEs>PIEZA DE DESLIZAMIENTO | GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GLISSIERE DE SUSPENSION</ShortDescriptionFr>
+      <ShortDescriptionIt>SLITTA _</ShortDescriptionIt>
+      <ShortDescriptionPt>PECA DE DESLIZAMENTO</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>4</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115129700</ItemNumber>
+      <ItemRevision>B</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>HALTER_</ShortDescriptionDe>
+      <ShortDescriptionEn>SUPPORT SUSPENSION IN ROTATION</ShortDescriptionEn>
+      <ShortDescriptionEs>SOPORTE</ShortDescriptionEs>
+      <ShortDescriptionFr>SUPPORT</ShortDescriptionFr>
+      <ShortDescriptionIt>SUPPORTO_</ShortDescriptionIt>
+      <ShortDescriptionPt>SUPORTE_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>5</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115150600</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>ANSCHLAG</ShortDescriptionDe>
+      <ShortDescriptionEn>STOP</ShortDescriptionEn>
+      <ShortDescriptionEs>PARADA</ShortDescriptionEs>
+      <ShortDescriptionFr>BUTEE</ShortDescriptionFr>
+      <ShortDescriptionIt>FERMO</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAGEM</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>6</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153600</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Ac inoxydable</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>GUIDE  APRES JOUE SUP. COC</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE APRES JOUE SUP. COC</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>7</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115153800</ItemNumber>
+      <ItemRevision>B</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>GUIDE AFTER LATERAL</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE APRES JOUE LATERAL</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>8</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0115213100</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X5CrNi18-10</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>VERSTEIFUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>STIFFENER</ShortDescriptionEn>
+      <ShortDescriptionEs>TENSOR_</ShortDescriptionEs>
+      <ShortDescriptionFr>RAIDISSEUR</ShortDescriptionFr>
+      <ShortDescriptionIt>TENDITORE_</ShortDescriptionIt>
+      <ShortDescriptionPt>REFORCADOR</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>9</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup></ItemMaterialGroup>
+      <ItemNumber>BSA03220000CU</ItemNumber>
+      <ItemRevision></ItemRevision>
+      <ItemState></ItemState>
+      <ItemUnitOfMeasure></ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe></ShortDescriptionDe>
+      <ShortDescriptionEn>PLEASE FILL THIS FIELD</ShortDescriptionEn>
+      <ShortDescriptionEs></ShortDescriptionEs>
+      <ShortDescriptionFr>ETRIER</ShortDescriptionFr>
+      <ShortDescriptionIt></ShortDescriptionIt>
+      <ShortDescriptionPt></ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>10</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0331718000</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>S 235 JR C</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>FUEHRUNG</ShortDescriptionDe>
+      <ShortDescriptionEn>SIDE GUIDE SUPPORT</ShortDescriptionEn>
+      <ShortDescriptionEs>GUIA</ShortDescriptionEs>
+      <ShortDescriptionFr>GUIDE</ShortDescriptionFr>
+      <ShortDescriptionIt>GUIDA</ShortDescriptionIt>
+      <ShortDescriptionPt>GUIA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>11</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0394712000</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>Anodized aluminium - Aluminium Oxydé</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>WARNSCHILDER</ShortDescriptionDe>
+      <ShortDescriptionEn>WARNING PLATES</ShortDescriptionEn>
+      <ShortDescriptionEs>PLACA DE SEGURIDAD</ShortDescriptionEs>
+      <ShortDescriptionFr>PLAQUE SECURITE</ShortDescriptionFr>
+      <ShortDescriptionIt>PIASTRINA DI SICUREZZA</ShortDescriptionIt>
+      <ShortDescriptionPt>PLACA DE SEGURANCA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>12</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>CMP</ItemMaterialGroup>
+      <ItemNumber>BSA0633304100</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SPANNLEISTE</ShortDescriptionDe>
+      <ShortDescriptionEn>CLAMPING BAR</ShortDescriptionEn>
+      <ShortDescriptionEs>REGLETA</ShortDescriptionEs>
+      <ShortDescriptionFr>LARDON</ShortDescriptionFr>
+      <ShortDescriptionIt>LARDONE</ShortDescriptionIt>
+      <ShortDescriptionPt>BARRA DE FIXACAO</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>13</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1002108076</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X17CrNi16-2 (EN 10088-3)</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SCHRAUBE</ShortDescriptionDe>
+      <ShortDescriptionEn>SCREW KNURLED</ShortDescriptionEn>
+      <ShortDescriptionEs>TORNILLO</ShortDescriptionEs>
+      <ShortDescriptionFr>VIS MOLETEE M8 X 20</ShortDescriptionFr>
+      <ShortDescriptionIt>VITE</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAFUSO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>14</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1002108079</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material>X17CrNi16-2 (EN 10088-3)</Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>SCHRAUBE</ShortDescriptionDe>
+      <ShortDescriptionEn>SCREW KNURLED</ShortDescriptionEn>
+      <ShortDescriptionEs>TORNILLO</ShortDescriptionEs>
+      <ShortDescriptionFr>VIS MOLETEE M8 X 30</ShortDescriptionFr>
+      <ShortDescriptionIt>VITE</ShortDescriptionIt>
+      <ShortDescriptionPt>PARAFUSO_</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>15</BomId>
+      <Criticality>3</Criticality>
+      <ItemMaterialGroup>SCC</ItemMaterialGroup>
+      <ItemNumber>BSA1007066600</ItemNumber>
+      <ItemRevision>A</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>RUNDSCHEIBE</ShortDescriptionDe>
+      <ShortDescriptionEn>WASHER AC 6.4/17X3</ShortDescriptionEn>
+      <ShortDescriptionEs>ARANDELA</ShortDescriptionEs>
+      <ShortDescriptionFr>RONDELLE AC 6.4/17X3</ShortDescriptionFr>
+      <ShortDescriptionIt>RONDELLA</ShortDescriptionIt>
+      <ShortDescriptionPt>ARRUELA</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+    <item>
+      <BomId>16</BomId>
+      <Criticality></Criticality>
+      <ItemMaterialGroup>SCD</ItemMaterialGroup>
+      <ItemNumber>BSA1007088700</ItemNumber>
+      <ItemRevision>-</ItemRevision>
+      <ItemState>03 Ok for all</ItemState>
+      <ItemUnitOfMeasure>PCE</ItemUnitOfMeasure>
+      <Material></Material>
+      <PartType />
+      <PreconisationCode></PreconisationCode>
+      <ShortDescriptionDe>ZWISCHENSTUECK 10,5/15,85 X 5,9</ShortDescriptionDe>
+      <ShortDescriptionEn>SPACER 10,5/15,85 X 5,9</ShortDescriptionEn>
+      <ShortDescriptionEs>PIEZA DE CONEXION 10,5/15,85 X 5,9</ShortDescriptionEs>
+      <ShortDescriptionFr>ENTRETOISE  10,5/15,85 X 5,9</ShortDescriptionFr>
+      <ShortDescriptionIt></ShortDescriptionIt>
+      <ShortDescriptionPt>PECA DE CONEXAO 10,5/15,85 X 5,9</ShortDescriptionPt>
+      <SmarteamClassName>CATIA Standard Part</SmarteamClassName>
+    </item>
+  </items>
+</root>

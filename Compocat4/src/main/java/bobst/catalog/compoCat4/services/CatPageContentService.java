@@ -42,8 +42,6 @@ public class CatPageContentService {
         try (OutputStream os = new FileOutputStream(xmlFile)) {
             os.write(file.getBytes());
         }
-
-        // String fileName =  "D:\\Projet_CAT\\Catalogue-Interactif\\Data\\ZSP_BSA00310000KD_E43_017_A\\ZSP_PCR0357T1004025_E43_017_-.xml";
         
         // Instantiate the Factory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -51,16 +49,11 @@ public class CatPageContentService {
         try {
             // parse XML file
             DocumentBuilder db = dbf.newDocumentBuilder();
-
-            //Document doc = db.parse(new File(fileName));
             Document doc = db.parse(xmlFile);
 
             // optional, but recommended
             // http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
             doc.getDocumentElement().normalize();
-
-            System.out.println("Root Element :" + doc.getDocumentElement().getNodeName());
-            System.out.println("------");
 
             // get <items>
             NodeList list = doc.getElementsByTagName("items");
@@ -75,7 +68,6 @@ public class CatPageContentService {
 
                     // get items's attributes
                     String pageNumber = element.getAttribute("PageNumber");
-                    System.out.println(pageNumber);
                     String idPage = idE43 + "_" + pageNumber;
 
                     //Upload table catPage with info itemPage = fileName + pageNumber
@@ -89,7 +81,6 @@ public class CatPageContentService {
                             Element linkElement = (Element) link;
                             String repere = linkElement.getElementsByTagName("BomId").item(0).getTextContent();
                             String idItem = linkElement.getElementsByTagName("Id").item(0).getTextContent();
-                            //String coordinates = linkElement.getElementsByTagName("Coordinates");
                             String contentType = "L";
                             CatPageContent newPageContentItem = new CatPageContent(idPage, contentType, idItem, repere);
                             catPageContentRepository.save(newPageContentItem);
@@ -122,7 +113,7 @@ public class CatPageContentService {
                             //String smarteamClassName = itemElement.getElementsByTagName("SmarteamClassName").item(0).getTextContent();
 
                             //Print screen of the data
-                            System.out.println(idItem + " - " + descriptionFr);
+                            //System.out.println(idItem + " - " + descriptionFr);
                             
                             //upload table catContentPage with itemId, 
                             //catPageContentRepository.save(new CatPageContent())
@@ -138,8 +129,6 @@ public class CatPageContentService {
                                 catPageContentRepository.save(newPageContentItem);
                             }
                             
-
-
                         }
                         
                     } 

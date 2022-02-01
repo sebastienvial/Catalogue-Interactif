@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
@@ -44,6 +45,20 @@ public class CatPageService {
           outputStream.write(buffer, 0, length);
         }
       }
+
+    private boolean uploadInStorage(Path source, String typeStorage) throws IOException {
+      boolean res = false;
+
+      if (typeStorage.equals("DEV")) {
+
+        Path target = Paths.get("svg");
+        //Files.copy(source, target, StandardCopyOption.REPLACE_EXISTING);
+        Files.copy(source, target.resolve(source.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+      } else {
+        uploadInStorage(source);
+      }
+      return true;
+    }
 
     private boolean uploadInStorage(Path source) throws IOException {
 
@@ -104,10 +119,11 @@ public class CatPageService {
             } else if (!entry.isDirectory()) {
               try (FileOutputStream fos = new FileOutputStream(outputEntryPath.toFile())) {
                 copy(zis, fos);
-                if (uploadInStorage(outputEntryPath)) {
+                if (uploadInStorage(outputEntryPath, "DEV")) {
                   insertBDcatPage(outputEntryPath);
-                };
-                Files.deleteIfExists(outputEntryPath.toAbsolutePath());
+                }
+
+                outputEntryPath.toFile().delete();
               }
             }
             entry = zis.getNextEntry();
