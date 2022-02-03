@@ -2,7 +2,7 @@
     <!-- This is the tree node template for leaf nodes -->
     <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding matTreeNodePaddingIndent="0">
         <!-- use a disabled button to provide padding for tree leaf -->
-        <button mat-button></button> <span (click)="onNaviguer(node.drawing)" [ngClass]="{ 'background-highlight': activeNode === node.name }">{{node.Id}} - <b>{{node.name}}</b></span>
+        <button mat-button></button> <span (click)="onNaviguer(node.drawing)" [ngClass]="{ 'background-highlight': activeNode === node.name }">{{node.id}} - <b>{{node.name}}</b></span>
     </mat-tree-node>
     <!-- This is the tree node template for expandable nodes -->
     <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding matTreeNodePaddingIndent="20">
@@ -10,6 +10,6 @@
         <mat-icon class="mat-icon-rtl-mirror">
           {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}  <!--expand_more-->
         </mat-icon>
-      </button> <span (click)="onNaviguer(node.drawing)">{{node.name}}</span>
+      </button> <span (click)="onNaviguer(node.drawing)">{{node.id}} - {{node.name}}</span>
     </mat-tree-node>
 </mat-tree>

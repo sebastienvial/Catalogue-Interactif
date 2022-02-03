@@ -22,7 +22,7 @@ export class BomService implements OnInit {
     
 
   getBom(): Observable<EquipmentNode[]> {
-    return this.http.get<EquipmentNode[]> ('http://localhost:8080/bom/BSA03802000066');
+    return this.http.get<EquipmentNode[]> ('http://localhost:8080/bom/ZNC_BSA03802000066_017_-');
   }
 
   getBomDynamic(idDoc: string, idParent: string): Observable<string[]> {

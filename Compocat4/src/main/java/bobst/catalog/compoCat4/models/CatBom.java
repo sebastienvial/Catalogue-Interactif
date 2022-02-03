@@ -1,17 +1,19 @@
 package bobst.catalog.compoCat4.models;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 
 @Entity
+@IdClass(CatBomCompositeKey.class)
 public class CatBom {
 
-    @Id   
-    @GeneratedValue 
-    private Long id;
+      
+    @Id 
     private String idDoc;
+    @Id 
     private String itemToc;
+    @Id 
     private String itemParent;
 
     public CatBom() {}    
@@ -20,16 +22,6 @@ public class CatBom {
         this.idDoc = idDoc;
         this.itemToc = itemToc;
         this.itemParent = itemParent;
-    }
-
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getIdDoc() {
@@ -55,7 +47,5 @@ public class CatBom {
     public void setItemParent(String itemParent) {
         this.itemParent = itemParent;
     }
-
-    
     
 }

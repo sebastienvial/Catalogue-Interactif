@@ -1,10 +1,12 @@
 package bobst.catalog.compoCat4.models;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
+
 
 @Entity
+@IdClass(CatPageContentCompositeKey.class)
 public class CatPageContent {
 	
 	public CatPageContent() {
@@ -20,25 +22,14 @@ public class CatPageContent {
 	}
 
 	@Id
-    @GeneratedValue
-    private Long id; 
 	private String idPage;
+	@Id
 	private String contentType;
+	@Id
 	private String idItem;
+	@Id
 	private String repere;
 	
-//	@OneToOne()
-//	@JoinColumn(name="idItem")
-//	private CatItem catItem;
-		
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-
 	public String getIdPage() {
 		return idPage;
 	}

@@ -17,6 +17,7 @@ import org.xml.sax.SAXException;
 
 import bobst.catalog.compoCat4.models.CatBom;
 import bobst.catalog.compoCat4.services.CatBomService;
+import bobst.catalog.compoCat4.services.CatE43Service;
 import bobst.catalog.compoCat4.services.CatPageContentService;
 import bobst.catalog.compoCat4.services.CatPageService;
 
@@ -31,6 +32,8 @@ public class CaptureController {
 
     @Autowired
     private CatPageContentService catPageContentService;
+
+    @Autowired CatE43Service catE43Service;
 
     @CrossOrigin(origins = "http://localhost:4200")
 	@GetMapping("/test")
@@ -62,6 +65,13 @@ public class CaptureController {
     @PostMapping("/captureXml")
     public String processXml(@RequestParam("file") MultipartFile file) throws ParserConfigurationException, SAXException, IllegalStateException, IOException {
         catPageContentService.uploadXml(file);
+        return "redirect:/capture";
+    }
+    
+
+    @PostMapping("/captureE43")
+    public String processZip(@RequestParam("file") MultipartFile file) {
+        catE43Service.uploadE43(file);
         return "redirect:/capture";
     }
     
