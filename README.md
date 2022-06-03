@@ -6,7 +6,7 @@ Travail de Master - MAS-RAD 4
 [Authentification TM](https://www.example.com)
 
 [Annexes](https://www.example.com)
-
+---
 
 [CompoCat4](https://github.com/sebastienvial/compocat4)
 
